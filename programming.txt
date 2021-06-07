@@ -2,3 +2,5 @@ reset keyboard
 $ sudo dfu-programmer atmega32u4 erase
 $ sudo dfu-programmer atmega32u4 flash /path/to/file.hex
 $ sudo dfu-programmer atmega32u4 launch
+ - OR -
+$ sudo dfu-programmer atmega32u4 reset
